@@ -1,9 +1,9 @@
 # export-figma-saved
 Backup Figma Community resources saved on your Figma profile
 
-1. Go to your profile at https://www.figma.com/<profile>/saves
+1. Go to your profile at `https://www.figma.com/<profile>/saves`
 2. Open DevTools
-3. Paste code to console
+3. Paste code below to console
 4. Paste copied JSON to new text file
 
 ```
