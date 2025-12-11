@@ -6,6 +6,7 @@ Open DevTools
 Paste code to console
 Paste copied JSON to new text file
 
+```
 // Extract all community resource links
 const links = Array.from(document.querySelectorAll('a.tile_meta--title--d8E1J'))
   .map(a => ({
@@ -20,3 +21,4 @@ console.table(links);
 copy(links);
 
 console.log(`Found ${links.length} items. JSON copied to clipboard!`);
+```
